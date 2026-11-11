@@ -1,0 +1,9 @@
+# Observed Snellius validation environment; not a portable CUDA wheel lockfile.
+# torch reports 2.10.0+cu128 at runtime. Select the appropriate PyTorch build.
+torch==2.10.0
+numpy==2.2.6
+networkx==3.5
+scipy==1.15.3
+transformers==4.57.6
+sentence-transformers==5.0.0
+sentencepiece==0.2.0

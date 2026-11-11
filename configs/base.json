@@ -1,0 +1,25 @@
+{
+  "encoder": "llama2_7b",
+  "pooling": "legacy_mean",
+  "llm_dtype": "float32",
+  "device": "cuda:0",
+  "seed": 1234,
+  "problem_size": 50,
+  "pomo_size": 50,
+  "tasks": ["TSP", "CVRP", "KP", "MVC", "SMTWTP"],
+  "epochs": 200,
+  "episodes": 2000,
+  "batch_size": 16,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.000001,
+  "pcgrad": true,
+  "save_every": 5,
+  "model": {
+    "embedding_dim": 512,
+    "encoder_layer_num": 6,
+    "qkv_dim": 16,
+    "head_num": 8,
+    "logit_clipping": 10,
+    "ff_hidden_dim": 512
+  }
+}

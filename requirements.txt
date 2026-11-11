@@ -1,0 +1,9 @@
+# Install a PyTorch wheel appropriate for your CPU/CUDA system first.
+torch>=2.2,<3
+numpy>=1.24,<3
+networkx>=3,<4
+scipy>=1.10,<2
+transformers>=4.51,<5
+accelerate>=1.0,<2
+sentence-transformers>=3,<6
+sentencepiece>=0.2,<1

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite the LNCS paper when using this code."
+type: software
+title: "LNCS: Language-based Neural COP Solver"
+version: "0.1.0-rc3"
+license: MIT
+authors:
+  - family-names: Jiang
+    given-names: Xia
+  - family-names: Wu
+    given-names: Yaoxin
+  - family-names: Wang
+    given-names: Yuan
+  - family-names: Zhang
+    given-names: Yingqian
+preferred-citation:
+  type: conference-paper
+  title: "Bridging Large Language Models and Optimization: A Unified Framework for Text-attributed Combinatorial Optimization"
+  authors:
+    - family-names: Jiang
+      given-names: Xia
+    - family-names: Wu
+      given-names: Yaoxin
+    - family-names: Wang
+      given-names: Yuan
+    - family-names: Zhang
+      given-names: Yingqian
+  year: 2026
+  conference:
+    name: "Asian Conference on Machine Learning (ACML 2026)"
